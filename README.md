@@ -2,11 +2,11 @@
 
 # Dresses & Clothes Classification with CLIP
 
-This project explores zero-shot image classification and semantic territory mapping using OpenAI's CLIP model.
+This project explores zero-shot image classification and semantic territory mapping using OpenAI’s CLIP model.
 
-It investigates how CLIP assigns meaning to fashion aesthetic using cosine similarity in embedding space and visualizes the resulting semantic territories.
+Instead of focusing only on classification accuracy, I treat zero-shot prediction as a question of **semantic structure**. By analyzing cosine similarities and visualizing embeddings, I examine how wedding aesthetic concepts like _traditional, modern, romantic, and dramatic_ appear (or fail to appear) as stable regions in CLIP’s vector space. This is tested across different domains, including wedding dresses, shoes, and venues.
 
----
+The findings suggest that culturally loaded aesthetic labels do not form clear, separate clusters. Instead, they tend to overlap, shift, and change **depending on prompt wording**. In CLIP, meaning is not stored as fixed categories, but as relational structure distributed across the multimodal embedding space.
 
 ## Project Goals
 
